@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3</title>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="open-modal-btn">Open Modal</button>
+    <div class="modal hide">
+        <div class="modal__inner">
+            <div class="modal__header">
+                <p>Hello mấy cưng</p>
+                <i class='bx bxs-x-circle' onclick="toggleModal()"></i>
+            </div>
+            <div class="modal__body">
+                <h2>Modal</h2>
+                <p>Đây là phần body của Modal</p>
+            </div>
+            <div class="modal__footer">
+                <button onclick="toggleModal()">Close</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
